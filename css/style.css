@@ -69,6 +69,7 @@ header{
     background-color: var(--lightazure);
     border-radius: 5%;
     padding: 0 2rem;
+    padding-bottom: 2rem;
     text-align: center;
     margin: 2rem 0;
 }
@@ -106,12 +107,12 @@ header{
 .sec2{
     background-color: var(--purple);
     color: var(--white);
-    padding: 0 2rem;
-
+    padding: 2rem 2rem;
 }
 .sec2 img{
     width: 85%;
 }
+
 .inner-sec2{
     max-width: 600px;
     margin: 0 auto;
@@ -119,10 +120,27 @@ header{
     align-items: center;
     flex-direction: column;
     justify-content: center;
+    text-align: center;
+    padding: 5rem 0;
 }
 .whitebg-sec2{
     background-color: var(--white);
     color: var(--lightblack);
     border-radius: 5rem;
     text-align: center;
+}
+.inner-sec2 h2{
+    font-size: 2rem;
+    margin-bottom: 3rem;
+}
+.inner-sec2 span{
+    width: 3rem;
+    aspect-ratio: 1;
+    background-color: var(--purple);
+    border-radius: 50%;
+    margin-top: 2rem;
+}
+.fa-arrow-down{
+    line-height: 3rem;
+    color: var(--lightblack);
 }
