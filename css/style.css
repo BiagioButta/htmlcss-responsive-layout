@@ -68,7 +68,7 @@ header{
     align-items: center;
     justify-content: center;
     background-color: var(--lightazure);
-    border-radius: 5%;
+    border-radius: 1rem;
     padding: 0 2rem;
     padding-bottom: 2rem;
     text-align: center;
@@ -94,7 +94,7 @@ header{
     text-decoration: none;
     color: var(--white);
     background-color: var(--azure);
-    border-radius: 5%;
+    border-radius: 1rem;
     padding: 1rem 3rem;
     border-radius: 5rem;
     margin: 2rem 0;
@@ -194,7 +194,7 @@ header{
 }
 .testimonial2 p{
     display: inline;
-    font-size: 1.5rem;
+    font-size: 1rem;
 }
 .testimonial2 i{
     color: var(--white);
@@ -224,7 +224,7 @@ header{
 }
 .inner-sec4 h2{
     color: var(--white);
-    font-size: 3rem;
+    font-size: 2.5rem;
     text-align: center;
     padding: 2rem 0;
 }
@@ -342,6 +342,8 @@ header{
 /* footer  */
 
 .inner-footer{
+    max-width: 600px;
+    margin: auto;
     background-color: var(--lightblack);
     color: var(--white);
     text-align: center;
@@ -352,4 +354,65 @@ header{
 }
 .inner-footer a{
     color: var(--purple);
+}
+
+/* media query  */
+
+@media screen and (min-width: 768px){
+    .container .sec1 .sec2 .sec3 .inner-sec4 .inner-sec5 .inner-sec6 .inner-footer{
+        max-width: 750px;
+    }
+    .sec1{
+        display: flex;
+        flex-wrap:wrap;
+        justify-content: space-between;
+        flex-direction: row;
+    }
+    .inner-sec1{
+        width: 30%;
+    }
+    .inner-sec11{
+        width: 60%;
+    }
+    .testimonial2{
+        display: flex;
+        flex-direction: row;
+    }
+    .img-sec3{
+        width: 150%;
+        margin: 0 1rem;
+    }
+    .testimonial2 :nth-child(2){
+        text-align: left;
+    }
+    .benefit{
+        width: calc(50% - 1rem);
+    }
+    .inner-sec4 :nth-child(2)
+    {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .inner-sec5{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .img-aboutus{
+        width: 100%;
+    }
+    .inner-sec5 :first-child{
+        width: 15rem;
+    }
+    .inner-sec5 :last-child{
+        width: 10rem;
+    }
+    /* errore a linkedin **************+*/
+}
+
+@media screen and (min-width:992px){
+    .container.sec1.sec2.sec3.inner-sec4.inner-sec5.inner-sec6.inner-footer{
+        max-width: 980px;
+    }
 }
