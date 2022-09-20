@@ -58,6 +58,8 @@ header{
 
 .sec1{
     margin: 2rem;
+    max-width: 600px;
+    margin: auto;
 }
 
 .inner-sec1{
@@ -104,6 +106,8 @@ header{
 /* sezione2 */
 
 .sec2{
+    max-width: 600px;
+    margin: auto;
     background-color: var(--purple);
     color: var(--white);
     padding: 2rem 2rem;
@@ -147,7 +151,9 @@ header{
 /* sezione3 */
 
 .sec3{
-    padding: 2rem 2rem;
+    max-width: 600px;
+    margin: auto;
+    padding: 4rem 2rem;
 }
 .inner-sec3{
     display: flex;
@@ -180,14 +186,33 @@ header{
     background-color: var(--purple);
     border-radius: 2rem;
     color: var(--white);
+    margin: 1rem 0;
+    padding: 2rem 0
+}
+.testimonial1 p{
+    padding-bottom: 2rem;
 }
 .testimonial2 p{
     display: inline;
-    font-size: 1rem;
+    font-size: 1.5rem;
 }
 .testimonial2 i{
     color: var(--white);
+    font-size: 1.5rem;
 }
+.inner-sec3 h2{
+    color: var(--purple);
+    font-size: 3rem;
+    padding: 2rem 0;
+}
+.testimonial2 h4{
+    padding-top: 1rem;
+}
+.inner-sec3 h4{
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+
 
 /* sezione4 */
 
@@ -201,11 +226,13 @@ header{
     color: var(--white);
     font-size: 3rem;
     text-align: center;
+    padding: 2rem 0;
 }
 .benefit{
     background-color: var(--white);
     border-radius: 1rem;
     padding: 2rem;
+    margin: 2rem 0;
 }
 .benefit h4, h3{
     color: var(--purple);
@@ -217,9 +244,20 @@ header{
     padding: 0.5rem 2rem;
     border-radius: 1rem;
 }
+.benefit h4{
+    font-size: 3rem;
+}
+.benefit h3{
+    padding: 1rem 0;
+}
+.benefit p{
+    padding-bottom: 2rem;
+}
 
 /* sezione5 */
-
+.sec5{
+    padding: 2rem 0;
+}
 .inner-sec5{
     max-width: 600px;
     margin: auto;
@@ -259,6 +297,13 @@ header{
     padding: 0.5rem;
     border-radius: 1rem;
 }
+.inner-sec5 h3{
+    padding: 2rem 0;
+}
+
+.inner-sec5 p{
+    padding: 1rem 0;
+}
 
 /* sezione6 */
 
@@ -275,8 +320,24 @@ header{
 
 .inner-sec6> h4, h2 {
     color: var(--white);
+    padding: 1rem 0;
 }
-
+.inner-sec6 h1{
+    color: var(--yellow);
+    font-size: 5rem;
+}
+.inner-sec6 p{
+    color: var(--white);
+    text-align: center;
+}
+.inner-sec6 a{
+    text-decoration: none;
+    color: var(--purple);
+    background-color: var(--white);
+    padding: 1rem 2rem;
+    border-radius: 2rem;
+    margin: 2rem 0;
+}
 
 /* footer  */
 
@@ -285,6 +346,9 @@ header{
     color: var(--white);
     text-align: center;
     padding: 2rem;
+}
+.inner-footer p{
+    padding: 1rem 0;
 }
 .inner-footer a{
     color: var(--purple);
